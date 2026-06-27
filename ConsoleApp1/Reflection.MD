@@ -18,4 +18,4 @@ Reflection
 
  5. If a Submarine can both sail and dive, how would you design it?
 
-	I would make the Submarine inherit from the `Vehicle` class and implement both the ISailable and IDiveable interfaces. This way, it can share common vehicle features while also having the ability to sail on the surface and dive underwater.
+	I would make the Submarine inherit from the Vehicle class and implement both the ISailable and IDiveable interfaces. This way, it can share common vehicle features while also having the ability to sail on the surface and dive underwater.

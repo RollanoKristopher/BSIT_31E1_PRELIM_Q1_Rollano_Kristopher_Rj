@@ -1,10 +1,13 @@
-namespace TransportChallenge
+﻿namespace TransportChallenge
 {
-    public class Airplane : Vehicle, IFlyable
+    public class Helicopter : Vehicle, IFlyable, IDriveable
     {
         public void Fly()
         {
-            // Flying behavior
+        }
+
+        public void Drive()
+        {
         }
 
         public override string Move()
